@@ -24,13 +24,11 @@ The project is a tutorial on how to build and implement a long time lapse record
 - 3D printed Parts
 
 
-
 ## Software
 
 Raspberry Pi OS Lite V5.15
 
-
-##Steps 
+## Steps 
 
 1. Connect all wires and put the camera in the outdoor housing
 2. Install the OS
