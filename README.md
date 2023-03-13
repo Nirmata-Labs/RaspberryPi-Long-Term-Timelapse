@@ -1,8 +1,6 @@
 # RaspberryPi-Timelapse
 The project is a tutorial on how to build and implement a long time lapse recording based on a Raspberry Pi. There is no camera that is affordable that has such features. You can easily create time-lapse recordings of your construction site, nature or other projects over a period of more than one year.
 
-
-
 ## Features:
 
 - **Settable interval**: Set a periodic time interval, such as every day at 12:00 or every hour when the minutes show 30.
@@ -12,7 +10,8 @@ The project is a tutorial on how to build and implement a long time lapse record
 - **Weather/Outdoor Ready:** The setup is designed for outdoor use.
 - **Power through the window:** The FFC cable easily fits through the gap of a window and provides a stable power connection without damaging the window or requiring a special outdoor power source.
 
-![Setup](setup.JPG)
+![Setup](images/setup.JPG)
+
 
 ## Components
 
