@@ -1,0 +1,18 @@
+[Unit]
+Description=Schedule timelapse ever hour
+RefuseManualStart=yes  # Allow manual starts
+RefuseManualStop=yes   # Allow manual stops
+
+[Timer]
+#Execute job if it missed a run due to machine being off
+Persistent=true
+#Run 20 seconds after boot for the first time
+OnBootSec=20
+#Run every hour when it's 30
+OnCalendar=*-*-* *:30:00
+#OnUnitActiveSec=3600
+#File describing job to execute
+Unit=timelapse.service
+
+[Install]
+WantedBy=timers.target
