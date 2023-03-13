@@ -49,7 +49,7 @@ pi@IP:~$ systemctl start timelapse.timer
 pi@IP:~$ systemctl enable timelapse.timer
 ```
 9. You can copy the files to your remote machine:
-10. ```
+```
 remote:~$ rsync -r -t pi@IP:/home/pi/images/  /Users/remote/Desktop/images
 ```
 
