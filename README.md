@@ -1,6 +1,16 @@
 # RaspberryPi-Timelapse
 The project is a tutorial on how to build and implement a long time lapse recording based on a Raspberry Pi.
 
+## Features:
+
+- **Settable interval**: Set a periodic time interval, such as every day at 12:00 or every hour when the minutes show 30.
+- **Stable service:** You do not have to start the script yourself, even after a reboot. The script is maintained by two services that manage all the processes.
+- **Day/Night Mode**: The script automatically selects the best tested settings for day and night photos. It uses a library that looks for the sunrise and sunset times at your location and uses them as criteria for the settings.
+- **Camera Settings**: You can set your own parameters so that the script suits your needs.
+- **Weather/Outdoor Ready:** The setup is designed for outdoor use.
+- **Power through the window:** The FFC cable easily fits through the gap of a window and provides a stable power connection without damaging the window or requiring a special outdoor power source.
+
+
 ![Setup](setup.JPG)
 
 ## Components
@@ -52,5 +62,3 @@ pi@IP:~$ systemctl enable timelapse.timer
 ```
 remote:~$ rsync -r -t pi@IP:/home/pi/images/  /Users/remote/Desktop/images
 ```
-
-
