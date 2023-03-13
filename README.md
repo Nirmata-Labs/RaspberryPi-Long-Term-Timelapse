@@ -1,5 +1,5 @@
 # RaspberryPi-Timelapse
-The project is a tutorial on how to build and implement a long time lapse recording based on a Raspberry Pi.
+The project is a tutorial on how to build and implement a long time lapse recording based on a Raspberry Pi. There is no camera that is affordable that has such features. You can easily create time-lapse recordings of your construction site, nature or other projects over a period of more than one year.
 
 ## Features:
 
